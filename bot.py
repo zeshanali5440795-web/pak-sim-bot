@@ -22,7 +22,7 @@ from telegram.ext import (
 # ============================================================
 #   CONFIGURATION - APNI DETAILS YAHAN BHARO
 # ============================================================
-BOT_TOKEN = "8600934565:AAHZgG4CQQ_Uof4oOfIkA823sV8laIju4Io"          # BotFather se mila token
+BOT_TOKEN = os.environ.get("8600934565:AAEUoKy-xYZqLDN_GeStfwDwYEcrbPKqh3E", "")          # BotFather se mila token
 ADMIN_ID = 7878519937                       # Tumhara Telegram ID
 WEBSITE_URL = "https://paksimsearch.gamer.gd"  # Tumhari website
 API_URL = "https://wasifali-sim-info.netlify.app/api/search"
